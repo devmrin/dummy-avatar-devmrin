@@ -3,9 +3,9 @@
   "version": "1.0.3",
   "description": "A dummy avatar component to learn about publishing packages to npm",
   "source": "src/Avatar/index.js",
-  "main": "lib/Avatar.js",
-  "module": "lib/Avatar.module.js",
-  "unpkg": "lib/Avatar.umd.js",
+  "main": "./lib/Avatar.js",
+  "module": "./lib/Avatar.module.js",
+  "unpkg": "./lib/Avatar.umd.js",
   "scripts": {
     "build": "microbundle --jsx React.createElement",
     "dev": "microbundle --jsx React.createElement watch"
