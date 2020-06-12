@@ -1,6 +1,6 @@
 {
   "name": "dummy-avatar-devmrin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A dummy avatar component to learn about publishing packages to npm",
   "source": "src/Avatar/index.js",
   "main": "lib/Avatar.js",
