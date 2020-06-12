@@ -2,9 +2,13 @@
   "name": "dummy-avatar-devmrin",
   "version": "1.0.0",
   "description": "A dummy avatar component to learn about publishing packages to npm",
-  "main": "index.js",
+  "source": "src/Avatar/index.js",
+  "main": "lib/Avatar.js",
+  "module": "lib/Avatar.module.js",
+  "unpkg": "lib/Avatar.umd.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "microbundle --jsx React.createElement",
+    "dev": "microbundle --jsx React.createElement watch"
   },
   "repository": {
     "type": "git",
@@ -12,7 +16,8 @@
   },
   "keywords": [
     "react",
-    "avatar"
+    "avatar",
+    "ui-component"
   ],
   "author": "Mrinmay Mukherjee",
   "license": "MIT",
@@ -20,7 +25,12 @@
     "url": "https://github.com/devmrin/dummy-avatar-devmrin/issues"
   },
   "homepage": "https://github.com/devmrin/dummy-avatar-devmrin#readme",
-  "devDependencies": {
-    "styled-components": "^5.1.1"
+  "peerDependencies": {
+    "styled-components": "^5.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "dependencies": {
+    "microbundle": "^0.12.0"
   }
 }

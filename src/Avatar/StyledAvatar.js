@@ -4,3 +4,5 @@ const Avatar = styled.img`
   border-radius: 9999px;
   box-sizing: border-box;
 `;
+
+export default Avatar;
