@@ -1,0 +1,1 @@
+# Dummy Avatar React Component

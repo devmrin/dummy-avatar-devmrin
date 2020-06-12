@@ -1,0 +1,26 @@
+{
+  "name": "dummy-avatar-devmrin",
+  "version": "1.0.0",
+  "description": "A dummy avatar component to learn about publishing packages to npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/devmrin/dummy-avatar-devmrin.git"
+  },
+  "keywords": [
+    "react",
+    "avatar"
+  ],
+  "author": "Mrinmay Mukherjee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devmrin/dummy-avatar-devmrin/issues"
+  },
+  "homepage": "https://github.com/devmrin/dummy-avatar-devmrin#readme",
+  "devDependencies": {
+    "styled-components": "^5.1.1"
+  }
+}
